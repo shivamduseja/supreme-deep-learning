@@ -1,0 +1,1 @@
+python -u train_resnet.py --model twolayernn --hidden-dim 400 --epochs 10 --weight-decay 0 --momentum 0.5 --batch-size 128 --lr 0.02 --resnet 0 --part 1 --type twolayernn | tee twolayernn_resnet_1.log
